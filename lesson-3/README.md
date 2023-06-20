@@ -17,7 +17,7 @@
 Одинарные и двойные кавычки работают, по сути, одинаково, а если использовать обратные кавычки, то в такую строку мы сможем вставлять произвольные выражения, обернув их в **${…}:**
 
 
-![Tux, the Linux mascot](lesson-3/img/ed.png)
+![Tux, the Linux mascot](/lesson-3/img/ed.png)
 
 
 # Методы строк в JavaScript: 
@@ -26,7 +26,7 @@
 
 **Важно:** При использовании методов создаётся новая строка, которая записывается в ту же переменную вместо старой строки.
 
-![Tux, the Linux mascot](lesson-3/img/javascript-string-methods.pnd)
+![Tux, the Linux mascot](/lesson-3/img/javascript-string-methods.pnd)
 
 
 ##  1. Как изменить регистр
