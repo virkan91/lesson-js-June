@@ -13,3 +13,9 @@
 // var x = new String('Привет, мир');
 
 // console.log(x.toString()); // Отобразит 'Привет, мир'
+
+
+let string = "Keftema barhtni";
+console.log(string.at(-1))
+console.log(string.at(4))
+console.log(string.at(5))
