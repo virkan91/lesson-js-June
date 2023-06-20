@@ -35,24 +35,32 @@
 
 Возвращает символ по указанному индексу.
 
-    > "Hello Tproger".charAt(); // "H"
+    > "Hello Tproger".charAt(0); // "H"
+_________________
+
 
 ##  2.Как объединить строки
 ### **concat**
 Объединяет две или более строки и возвращает одну строку.
 
 
-    > "Hello Tproger".toLowerCase(); // "hello tproger"
+    > let str1 = 'Hello';
+    > let str2 = 'World';
+
+console.log(str1.concat(' ', str2)); // "Hello World"
+console.log(str2.concat(', ', str1)); // "World, Hello"
+
+_________________
 
 
-##  2.Как объединить строки
+##  3.Как объединить строки
 ### **concat**
 Объединяет две или более строки и возвращает одну строку.
 
     > "Hello Tproger".toLowerCase(); // "hello tproger"
 _________________
 
-## 5.Как удалить пробелы в строке
+## 4.Как удалить пробелы в строке
 ### **trim**
 Обрезает пробелы с обоих концов строки.
       
