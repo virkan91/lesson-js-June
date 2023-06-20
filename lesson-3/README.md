@@ -43,17 +43,7 @@
 
 
     > "Hello Tproger".toLowerCase(); // "hello tproger"
-##  1. Как изменить регистр
-### **toLowerCase**
-Преобразует символы в строке в нижний регистр.
 
-    > "Hello Tproger".toLowerCase(); // "hello tproger"
-
-### **toUpperCase**
-Преобразует символы в строке в верхний регистр.
-
-    > "Hello Tproger".toUpperCase(); // "HELLO TPROGER"
-_________________
 
 ##  2.Как объединить строки
 ### **concat**
@@ -133,7 +123,17 @@ _________________
       > "Hello Tproger".split(" ", 1); //["Hello"]
       
       
+##  1. Как изменить регистр
+### **toLowerCase**
+Преобразует символы в строке в нижний регистр.
 
+    > "Hello Tproger".toLowerCase(); // "hello tproger"
+
+### **toUpperCase**
+Преобразует символы в строке в верхний регистр.
+
+    > "Hello Tproger".toUpperCase(); // "HELLO TPROGER"
+_________________
 
 
 
