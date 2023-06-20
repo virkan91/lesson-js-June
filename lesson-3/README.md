@@ -46,8 +46,11 @@
 назад от последнего символа строки
 
    >let string = "Keftema barhtni";
+
     // console.log(string.at(-1))
+
     // console.log(string.at(4))
+    
     // console.log(string.at(5))
 _________________
 
