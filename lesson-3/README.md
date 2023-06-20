@@ -4,7 +4,7 @@
 
 **Важно:** При использовании методов создаётся новая строка, которая записывается в ту же переменную вместо старой строки.
 
-![Tux, the Linux mascot](/img/javascript-string-methods.pnd)
+![Tux, the Linux mascot](lesson-3/img/javascript-string-methods.pnd)
 
 
 ##  1. Как изменить регистр
