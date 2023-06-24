@@ -137,3 +137,127 @@
     // }
     // console.log(sumArray([1, 2, 3, 4, 5]))
     // console.log(sumArray([-1, 0, 1]))
+
+
+/* Task - 13 
+Создайте функцию, которая принимает два числа num1, num2
+и массив arr и возвращает массив, содержащий все числа в arr,
+которые больше num1 и меньше num2.*/
+
+
+    // function arrBetween(num1,num2,arr){
+    //     return arr.filter(arr => arr > num1 && arr < num2)
+    // }
+    // console.log(arrBetween(3, 8, [1, 5, 95, 0, 4, 7]))
+    // console.log(arrBetween(1, 10, [1, 10, 25, 8, 11, 6]))
+    // console.log(arrBetween(7, 32, [1, 2, 3, 78]))
+
+
+/* Task - 14 
+Создайте функцию, которая принимает массив и возвращает
+типы значений (типы данных) в новом массиве.*/
+
+//    function arrayValuesTypes(arr){
+//       return arr.map(n => typeof n)
+//    }
+//    console.log(arrayValuesTypes([1, 2, "null", []]))
+
+
+/* Task 15 Создайте функцию, которая принимает массив слов и
+преобразует его в массив длины каждого слова*/
+
+// function wordLengths(arr){
+//     return  arr.map(str => str.length)
+// }
+// console.log(wordLengths(["hello", "world"]))
+
+// function checkSquareAndCube(arr) {
+// 	return Math.cbrt(x)
+// }
+// checkSquareAndCube([4, 8])
+// checkSquareAndCube([16, 48])
+// checkSquareAndCube([9, 27])
+
+
+
+/* Task - 16 
+Создайте функцию, которая принимает массив из двух чисел и
+проверяет, равен ли квадратный корень из первого числа
+кубическому корню из второго числа.*/
+
+// function checkSquareAndCube(){
+
+// }
+// console.log(checkSquareAndCube([4, 8]))
+
+/* Task - 17 Создайте функцию, которая принимает массив с числами и
+возвращает массив с элементами, умноженными на два*/
+
+    // function getMultipliedArr(arr){
+    //     return arr.map(num => num *2)
+    // }
+    // console.log(getMultipliedArr([2, 5, 3]))
+    // console.log(getMultipliedArr([1, 86, -5]))
+
+/* Task - 18 
+Создайте функцию, которая принимает массив и возвращает
+сумму всех чисел в массиве.*/
+
+// function getSumOfItems(arr){
+//     return arr.reduce((a,b) => a + b )
+// }
+// console.log(getSumOfItems([2, 7, 4]))
+// console.log(getSumOfItems([45, 3, 0]))
+// console.log(getSumOfItems([-2, 84, 23]))
+
+/* task - 19 Учитывая букву и массив слов, верните, не появляется ли
+буква ни в одном из слов*/
+
+// function forbiddenLetter(arr1, arr2){
+
+
+// }
+
+/* Task 22 Учитывая массив целых чисел, определите, является ли сумма
+его элементов четной или нечетной. Возвращаемое значение
+должно быть строкой ("нечетное" или "четное"). Если входной
+массив пуст, рассматривайте его как массив с нулем ([0]).*/
+
+
+    // function evenOrOdd(arr){
+
+    //     let sum =  arr.reduce((a,b)=> a + b, 0)
+    //     if(sum%2==0){
+    //     return "even"
+    //     }
+    //     return "odd"
+    // }
+    // console.log(evenOrOdd([1]))
+    // console.log(evenOrOdd([]))
+    // console.log(evenOrOdd([0,1,5]))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+///// HOME-TASK /////////
+
+
+/* TASK 1  */
+
+
