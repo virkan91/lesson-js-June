@@ -112,8 +112,27 @@
 
 /* Task - 9 */ 
 
-function moMe(){
+// function moMe(){
   
-}
-console.log(moMe({ 1: "Mommy", 2: "please", 3: "help" }))
+// }
+// console.log(moMe({ 1: "Mommy", 2: "please", 3: "help" }))
+
+
+// const obj = {
+//     name: "suhrob",
+//     age: 30,
+//    "fathers name": "Bahrom"
+// };
+// console.log(Object.entries(obj))
+// //[[name:, "suhrob"] [age:, 30] ["fathers name":, "Bahrom"]]
+
+const obj = {
+    name: "suhrob",
+    age: 30,
+   "fathers name": "Bahrom"
+};
+console.log(Object.values(obj)) // values - заначениёра массив мекна
+//["suhrob", 30 ,  "Bahrom"]
+
+
 
