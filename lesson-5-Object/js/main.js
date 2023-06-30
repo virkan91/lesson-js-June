@@ -114,13 +114,17 @@
 
 /* Task - 9 */ 
 
-// function moMe(){
-  
-// }
+//  function moMe(obj){
+//    return `${obj[1]} ${obj[2]} ${obj[3]} ${obj[2]}`
+//  }
 // console.log(moMe({ 1: "Mommy", 2: "please", 3: "help" }))
 
 
+/* task - 10*/
 
+function hasKey(obj,str){
+   
+}
 
 /* Task - 13 */ 
 
@@ -148,23 +152,23 @@
 
 
 
-function generation(num, str){
-    const m = {
-        "-3"  :   "great grendfather", 
-        "-2"  :   "grendfather" ,
-        "-1"  :  "father" ,
-        "0"  :  "me"  ,
-        "1" :  "son" ,
-        "2" :  "grandson" ,
-        "3" :    "great son" 
-    }
-    const f = {
-        "-3"  :  "great grendmather",
-        "-2"  :  "grendmather" ,
-        "-1"  :  "mather" ,
-        "0"  : "me!"  ,
-        "1" :  "sister", 
-        "2" :   "grandsister", 
-        "3" :  "great sister" 
-    }
-};
+// function generation(num, str){
+//     const m = {
+//         "-3"  :   "great grendfather", 
+//         "-2"  :   "grendfather" ,
+//         "-1"  :  "father" ,
+//         "0"  :  "me"  ,
+//         "1" :  "son" ,
+//         "2" :  "grandson" ,
+//         "3" :    "great son" 
+//     }
+//     const f = {
+//         "-3"  :  "great grendmather",
+//         "-2"  :  "grendmather" ,
+//         "-1"  :  "mather" ,
+//         "0"  : "me!"  ,
+//         "1" :  "sister", 
+//         "2" :   "grandsister", 
+//         "3" :  "great sister" 
+//     }
+// };
