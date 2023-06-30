@@ -68,10 +68,12 @@
 
 /* Task - 6*/
 
-// function totalAmountAdjectives(){
+// function totalAmountAdjectives(obj){
+//   return Object.values(obj).length;
 
 // }
 // console.log(totalAmountAdjectives({ a: "moron" }))
+// console.log(totalAmountAdjectives({ a: "idiot", b: "idiot", c: "idiot" }))
 
 
 /* Task - 7*/
@@ -118,21 +120,29 @@
 // console.log(moMe({ 1: "Mommy", 2: "please", 3: "help" }))
 
 
-// const obj = {
-//     name: "suhrob",
-//     age: 30,
-//    "fathers name": "Bahrom"
-// };
-// console.log(Object.entries(obj))
-// //[[name:, "suhrob"] [age:, 30] ["fathers name":, "Bahrom"]]
-
-const obj = {
-    name: "suhrob",
-    age: 30,
-   "fathers name": "Bahrom"
-};
-console.log(Object.values(obj)) // values - заначениёра массив мекна
-//["suhrob", 30 ,  "Bahrom"]
 
 
+/* Task - 13 */ 
 
+  function maximumScore(obj){
+    return obj.reduce((a,b)=> a+b.score, 0)
+  }
+
+  console.log(maximumScore([
+    { tile: "N", score: 1 }, { tile: "K", score: 5 },
+    { tile: "Z", score: 10 }, { tile: "X", score: 8 }, { tile: "D", score: 2 },
+    { tile: "A", score: 1 }, { tile: "E", score: 1 }
+    ]))
+    console.log(maximumScore([
+        { tile: "B", score: 2 }, { tile: "V", score: 4 },
+        { tile: "F", score: 4 }, { tile: "U", score: 1 }, { tile: "D", score: 2 },
+        { tile: "O", score: 1 }, { tile: "U", score: 1 }
+        ]))
+
+/* task - 14 */
+
+// function addName(obj, key, num){
+//     obj[key] = num
+//     return obj
+// }
+// console.log(addName({}, "Brutus", 300))
