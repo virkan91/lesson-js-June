@@ -30,7 +30,7 @@
 ## Methods object
  
 Object.entries()
-![Tux, the Linux mascot](/lesson-5-Object/img/)
+![Tux, the Linux mascot](/lesson-5-Object/img/en.png)
 
 Object. keys()
 ![Tux, the Linux mascot](/)
