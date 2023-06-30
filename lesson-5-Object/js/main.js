@@ -55,11 +55,11 @@
 /* Task - 5 */
 
 // function cityFacts(obj){
-// //  let str = {
-// //     name: "Paris",
-// //     population: "2,140,526",
-// //     continent: "Europe"
-// //  }
+//   let str = {
+//    name: "Paris",
+//    population: "2,140,526",
+//    continent: "Europe"
+//   }
 //  return `${obj.name} has a population of ${obj.population} and is situated in ${obj.continent}`
 // }
 // console.log(cityFacts({ name: "Paris", population: "2,140,526", continent: "Europe"}))
