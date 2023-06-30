@@ -124,20 +124,19 @@
 
 /* Task - 13 */ 
 
-  function maximumScore(obj){
-    return obj.reduce((a,b)=> a+b.score, 0)
-  }
-
-  console.log(maximumScore([
-    { tile: "N", score: 1 }, { tile: "K", score: 5 },
-    { tile: "Z", score: 10 }, { tile: "X", score: 8 }, { tile: "D", score: 2 },
-    { tile: "A", score: 1 }, { tile: "E", score: 1 }
-    ]))
-    console.log(maximumScore([
-        { tile: "B", score: 2 }, { tile: "V", score: 4 },
-        { tile: "F", score: 4 }, { tile: "U", score: 1 }, { tile: "D", score: 2 },
-        { tile: "O", score: 1 }, { tile: "U", score: 1 }
-        ]))
+//   function maximumScore(obj){
+//     return obj.reduce((a,b)=> a+b.score, 0)
+//   }
+//   console.log(maximumScore([
+//     { tile: "N", score: 1 }, { tile: "K", score: 5 },
+//     { tile: "Z", score: 10 }, { tile: "X", score: 8 }, { tile: "D", score: 2 },
+//     { tile: "A", score: 1 }, { tile: "E", score: 1 }
+//     ]))
+//     console.log(maximumScore([
+//     { tile: "B", score: 2 }, { tile: "V", score: 4 },
+//     { tile: "F", score: 4 }, { tile: "U", score: 1 }, { tile: "D", score: 2 },
+//     { tile: "O", score: 1 }, { tile: "U", score: 1 }
+//      ]))
 
 /* task - 14 */
 
@@ -146,3 +145,26 @@
 //     return obj
 // }
 // console.log(addName({}, "Brutus", 300))
+
+
+
+function generation(num, str){
+    const m = {
+        "-3"  :   "great grendfather", 
+        "-2"  :   "grendfather" ,
+        "-1"  :  "father" ,
+        "0"  :  "me"  ,
+        "1" :  "son" ,
+        "2" :  "grandson" ,
+        "3" :    "great son" 
+    }
+    const f = {
+        "-3"  :  "great grendmather",
+        "-2"  :  "grendmather" ,
+        "-1"  :  "mather" ,
+        "0"  : "me!"  ,
+        "1" :  "sister", 
+        "2" :   "grandsister", 
+        "3" :  "great sister" 
+    }
+};
