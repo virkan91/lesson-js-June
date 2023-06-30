@@ -29,17 +29,18 @@
 
 ## Methods object
  
-Object.entries()
+**Object.entries()**
 
 ![Tux, the Linux mascot](/lesson-5-Object/img/en.png)
 
-Object. keys()
+**Object. keys()**
 
 ![Tux, the Linux mascot](/lesson-5-Object/img/keys.png)
 
-Object. values()
+**Object. values()**
 
 ![Tux, the Linux mascot](/lesson-5-Object/img/val.png)
+________________________________________________________
 
 
 
