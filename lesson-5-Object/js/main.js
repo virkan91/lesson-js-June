@@ -116,3 +116,4 @@ function moMe(){
   
 }
 console.log(moMe({ 1: "Mommy", 2: "please", 3: "help" }))
+
