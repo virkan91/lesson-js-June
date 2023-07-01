@@ -1,0 +1,21 @@
+
+.conteiner{
+    border: 1px solid #ccc;
+    width: 750px;
+    height: 399px;
+    margin: 0px auto
+}
+.box{
+    /*border: 1px solid #ccc;*/
+    width: 48%;
+    height: 178px;
+    background-color: #FFF9DE;
+    border-radius: 5px;
+
+}
+.bx{
+    font-size: 25px;
+}
+.bxs-trash-alt{
+    color: red;
+}

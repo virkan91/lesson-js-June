@@ -122,9 +122,9 @@
 
 /* task - 10*/
 
-function hasKey(obj,str){
+// function hasKey(obj,str){
    
-}
+// }
 
 /* Task - 13 */ 
 
@@ -152,7 +152,8 @@ function hasKey(obj,str){
 
 
 
-// function generation(num, str){
+// function generation(x, str){
+    
 //     const m = {
 //         "-3"  :   "great grendfather", 
 //         "-2"  :   "grendfather" ,
@@ -172,3 +173,33 @@ function hasKey(obj,str){
 //         "3" :  "great sister" 
 //     }
 // };
+
+
+/* Task - 17*/
+
+// function keysAndValues(obj){
+//     const keys = Object.keys(obj). sort()
+//     const values = Object.values(obj).sort((a,b)=>a-b,0)
+//     return[keys, values]
+// }
+// console.log(keysAndValues({ a: 1, b: 2, c: 3 }))
+
+
+let box = document.querySelector(".box");
+
+let h1 = document.createElement("h1");
+h1.innerHTML="Lets Go";
+
+
+ let btn = document.createElement("button")
+ btn.innerHTML = "Заказать";
+
+btn.onclick = () =>{
+    let p = document.createElement("p")
+    p.innerHTML = "Заказ добавлено"
+    box.appendChild(p)
+    h1.classList.toggle("p")
+}
+ box.appendChild(h1);
+ box.appendChild(btn);
+
