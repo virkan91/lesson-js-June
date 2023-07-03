@@ -1,17 +1,15 @@
 
  .conteinerone{
-    /* border: 1px solid #ccc; */
     width: 750px;
     height: 399px;
     margin: 0px auto
 } 
 .conteiner{
-    /*border: 1px solid #ccc;*/
     width: 40%;
     height: 178px;
     background-color: #FFF9DE;
     border-radius: 10px;
-    margin: 20px auto;
+    margin: 16px auto;
     padding: 0px 20px;
     
 
@@ -27,6 +25,7 @@
 }
 .box{
     display: flex;
+    flex-wrap: wrap;
 }
 .bx{
     font-size: 25px;

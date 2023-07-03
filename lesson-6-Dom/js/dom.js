@@ -11,13 +11,13 @@ let data = [
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet euismod nulla.",
         completed: false,
     },
-    {
-        id: 2,
-        title: "The first task tittle",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet euismod nulla.",
-        completed: false,
+    // {
+    //     id: 2,
+    //     title: "The first task tittle",
+    //     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet euismod nulla.",
+    //     completed: false,
 
-    }
+    // }
 ]
 
 // Logic input / booton / 
