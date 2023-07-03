@@ -1,31 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <title>Document</title>
-</head>
-<body>
-
+  </head>
+  <body>
+    <!-- <h1>Data:</h1>
     
-    <!--div class="box"></div-->
+  <input type="text" class="name">
+  <input type="text" class="age">
+  <input type="text" class="curs">
+  <button class="btnAdd">Добавить</button>
+    <div class="box"></div> -->
 
 
-    <div class="conteiner">
-        <div class="box">
-          <h2>The first task tittle</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet euismod nulla.</p>
-          <i class='bx bxs-edit-alt'></i>
-          <i class='bx bxs-trash-alt'></i>
-          <label>
-            <input type="checkbox" name="" value="">done
-          </label>
+
+    <!-- кнопка барой модалька -->
+    <!-- <button class="openModal">+</button> -->
+
+    <!-- conteiner -->
+    <div class="conteinerone">
+      <button class="openModal">+</button>
+
+      <div class="box">
+        <!-- <div class="box">
+            <h2>The first task tittle</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet euismod nulla.</p>
+            
+            <i class='bx bxs-edit-alt'></i>
+            <i class='bx bxs-trash-alt'></i>
+            <label>
+              <input type="checkbox" name="" value="" >done
+            </label>
+          </div> -->
+      </div>
+  
+      <!-- Model for add -->
+      <dialog class="modalAdd">
+        <div class="headerModal">
+          <h2>TASK</h2>
+        <button class="closeModal">X</button>
         </div>
-    </div>
+        <label for="">Titile
+          <input class="inpTitl" />
+        </label>
+         <label for="">Description
+          <input class="inpDisc" />
+         </label>
+       
+        <button class="btnAdd">Добавить</button>
+        <button class="btnClose">Закрыт</button>
+  
+      </dialog>
+  
+  
+     <!-- Model for edit -->
+     <dialog class="modalEdit">
+      <label for="">Titile
+        <input class="inpTitEdit"/>
+      </label>
+      <label for="">Description
+        <input class="inpDecEdit"/>
+      </label>
+       
+      
+      <button class="btnEdit">Pедактировать</button>
+      <button class="btnCloseEdit">Закрыт</button>
+  
+    </dialog>
 
-    <script src="js/main.js"></script>
-</body>
+
+
+
+    </div>
+    <!-- conteiner end -->
+    
+
+
+
+
+
+
+
+    <script src="js/dom.js"></script>
+  </body>
 </html>
