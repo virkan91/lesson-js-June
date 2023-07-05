@@ -40,5 +40,26 @@ _______________________________________________________
 
 
 
+### 1.callbacks
 
 ![Tux, the Linux mascot](/lesson-7-Synchronous-ASynchronous/img/sset.png)
+
+
+### 2. promises
+
+ promises - обектай(обект возврашать мекна) 
+
+ promises-обешание (яне promises обещать мекна ки тда ягон обект  метия)
+
+  **promise**  3 сосотояние дора:
+
+* Pending
+
+* Fulfilled(успешно)
+
+* Rejected (ошибка(ой такой страница не найдено!))
+
+![Tux, the Linux mascot](/lesson-7-Synchronous-ASynchronous/img/prom.png)
+
+
+

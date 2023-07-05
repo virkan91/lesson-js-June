@@ -7,16 +7,16 @@
 
 
 
-console.log("one")  // SYNCHRONOUS code  
+// console.log("one")  // SYNCHRONOUS code  
 
 
-setTimeout(()=>{ 
-    console.log('salom')   // ASYNCHRONOUS code 
-  }, 2000)
+// setTimeout(()=>{ 
+//     console.log('salom')   // ASYNCHRONOUS code 
+//   }, 2000)
 
 
 
-console.log("two") // SYNCHRONOUS code 
+// console.log("two") // SYNCHRONOUS code 
 
 
 
@@ -24,11 +24,11 @@ console.log("two") // SYNCHRONOUS code
 
    //ansy  code
 
-setTimeout(()=>{   // setTimeout - 2 параматр мегира (1.callbacks(функция) 2-юмш Ожидание минисикунд мегира) 
-  console.log('salom')
-}, 2000)
+// setTimeout(()=>{   // setTimeout - 2 параматр мегира (1.callbacks(функция) 2-юмш Ожидание минисикунд мегира) 
+//   console.log('salom')
+// }, 2000)
 
-setTimeout - мтоды dom-ай
+// setTimeout - мтоды dom-ай
 
 
 //Метод setInterval имеет такой же синтаксис как setTimeout:
@@ -40,16 +40,31 @@ setTimeout - мтоды dom-ай
 
 // повторить с интервалом 2 секунды
 
-let timerId = setInterval(() =>{
-    console.log('tick')
-}, 2000);
+// let timerId = setInterval(() =>{
+//     console.log('tick')
+// }, 2000);
 
 
-// остановить вывод через 5 секунд
-setTimeout(() => { clearInterval(timerId); 
-    console.log('stop'); 
-}, 5000);
+// // остановить вывод через 5 секунд
+// setTimeout(() => { clearInterval(timerId); 
+//     console.log('stop'); 
+// }, 5000);
 
+
+
+function promiseData(url){
+    return new Promise ((resolve,reject)=>{ // Promise - 2 параматр мегира (1.callbacks(функция) 2-юмш resolte ва reject)
+        fetch(url) // методи js
+        .then((response)=>response.json()) // json ай стринг бай обект мегардона!
+        .then((data)=>resolve(data))
+        .catch((erorr)=>reject(erorr))
+    })
+}
+
+promiseData('https://63d14a1e3f08e4a8ff94b1a5.mockapi.io/department')// ссылка ай бек
+
+.then((data)=>console.log(data)) //resolve
+.catch((erorr)=> console.log(erorr))// 404 (Not Found)
 
 
 
