@@ -79,15 +79,19 @@ _______________________________________________________
 >         } catch (error){
 >
 >        }
->     }
+>     }    
 >   get()
+>
+>
 
 
- **async**  -Барое ки функция асинхрони шава!
 
- **await**  -Барое ки функция ждать кна
 
- **fetch** - Барой запроса-ра ва js шинос кардан (методи js)
+  **async**  -Барое ки функция асинхрони шава!
 
-![Tux, the Linux mascot](/lesson-7-Synchronous-ASynchronous/img/asyn.png)
+  **await**  -Барое ки функция ждать кна
+
+  **fetch** - Барой запроса-ра ва js шинос кардан (методи js)
+
+   ![Tux, the Linux mascot](/lesson-7-Synchronous-ASynchronous/img/asyn.png)
 
