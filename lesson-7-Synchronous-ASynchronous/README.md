@@ -53,13 +53,32 @@ _______________________________________________________
 
   **promise**  3 сосотояние дора:
 
-* Pending
+* **Pending**
 
-* Fulfilled(успешно)
+* **Fulfilled**(успешно)
 
-* Rejected (ошибка(ой такой страница не найдено!))
+* **Rejected** (ошибка)(404- Not-Found))
 
 ![Tux, the Linux mascot](/lesson-7-Synchronous-ASynchronous/img/promm.png)
 
+
+  
+### 3. async/await syntax.
+
+
+Мы используем ключевое слово async с функцией, чтобы обозначить, что функция является
+асинхронная функция. Асинхронная функция возвращает обещание.
+
+Асинхронная функция  - 2 холат дора: **try** ва **саtch**
+
+
+>       async function get (){
+>        try{
+
+>        } catch (error){
+
+>       }
+>     }
+>   get()
 
 

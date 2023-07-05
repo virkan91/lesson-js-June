@@ -52,19 +52,34 @@
 
 
 
-function promiseData(url){
-    return new Promise ((resolve,reject)=>{ // Promise - 2 параматр мегира (1.callbacks(функция) 2-юмш resolte ва reject)
-        fetch(url) // методи js
-        .then((response)=>response.json()) // json ай стринг бай обект мегардона!
-        .then((data)=>resolve(data))
-        .catch((erorr)=>reject(erorr))
-    })
+// function promiseData(url){
+//     return new Promise ((resolve,reject)=>{ // Promise - 2 параматр мегира (1.callbacks(функция) 2-юмш resolte ва reject)
+//         fetch(url) // методи js
+//         .then((response)=>response.json()) // json ай стринг бай обект мегардона!
+//         .then((data)=>resolve(data))
+//         .catch((erorr)=>reject(erorr))
+//     })
+// }
+
+// promiseData('https://63d14a1e3f08e4a8ff94b1a5.mockapi.io/department')// ссылка ай бек
+
+// .then((data)=>console.log(data)) //resolve
+// .catch((erorr)=> console.log(erorr))// 404 (Not Found)
+
+
+
+async function get (){
+    try {
+        let response = await fetch(
+            "https://63d14a1e3f08e4a8ff94b1a5.mockapi.io/department"
+        );
+        let data = await response.json();
+        get(data)
+    } catch (erorr){
+      console.log(error)
+    }
 }
-
-promiseData('https://63d14a1e3f08e4a8ff94b1a5.mockapi.io/department')// ссылка ай бек
-
-.then((data)=>console.log(data)) //resolve
-.catch((erorr)=> console.log(erorr))// 404 (Not Found)
+get()
 
 
 
