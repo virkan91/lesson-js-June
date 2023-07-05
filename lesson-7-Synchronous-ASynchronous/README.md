@@ -59,7 +59,7 @@ _______________________________________________________
 
 * Rejected (ошибка(ой такой страница не найдено!))
 
-![Tux, the Linux mascot](/lesson-7-Synchronous-ASynchronous/img/prom.png)
+![Tux, the Linux mascot](/lesson-7-Synchronous-ASynchronous/img/promm.png)
 
 
 
