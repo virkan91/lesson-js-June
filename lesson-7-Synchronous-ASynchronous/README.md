@@ -120,18 +120,4 @@ API - это взаимосвяз между Backend и Frontend (информа
 
 **GET** - GET — метод для чтения данных с сайта. Например, для доступа к указанной странице. Он говорит серверу, что клиент хочет прочитать указанный документ. На практике этот метод используется чаще всего, например, в интернет-магазинах на странице каталога. Фильтры, которые выбирает пользователь, передаются через метод GET.
 
-
-> async function getUsers(){
->   
->  try {
->    const response = await fetch("");
->
->    const data = await response.json();
->
->    console.log(data);
->    }
->    catch (error) {
->
->    console.log(error)
->    }
->}
+![Tux, the Linux mascot](/lesson-7-Synchronous-ASynchronous/img/get.png)
