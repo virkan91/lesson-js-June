@@ -69,19 +69,23 @@
 
 
 async function get (){
-    try {
-        let response = await fetch(
-            "https://63d14a1e3f08e4a8ff94b1a5.mockapi.io/department"
-        );
-        let data = await response.json();
-        get(data)
-    } catch (erorr){
-      console.log(error)
-    }
+ try{
+    let resonse = await fetch("https://63d14a1e3f08e4a8ff94b1a5.mockapi.io/department")
+    let data = await resonse.json()
+    console.log(data)
+
+ } catch (error){
+   console.log(error)
+ }
 }
 get()
 
+   // async - синтаксиси функцияи асинхроний
+  //  await - ожидание!
+  // fetch - API - ра да js шинос мекна (методи js)
 
+// resonse - ответ (джавоб)
+  
 
 
 
